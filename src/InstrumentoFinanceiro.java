@@ -1,7 +1,7 @@
 public class InstrumentoFinanceiro {
     private float saldo;
     	
-    public void SetSaldo(float saldo) {
+    public void setSaldo(float saldo) {
     	this.saldo = saldo;
     }
     
@@ -11,7 +11,7 @@ public class InstrumentoFinanceiro {
     
     
     public float calcularSaldoTotal() {
-    	return saldo;
+    	return getSaldo();
     }
 
 	

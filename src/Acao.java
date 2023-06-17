@@ -13,11 +13,9 @@ public class Acao extends InstrumentoFinanceiro{
 		float saldoTotalCota;
 		float saldo = getSaldo();
 		
-		if(cotas == 0) {
-			System.out.println("O número de cotas é igual a zero! Seu saldo é de:  " + saldo);
+		if(cotas <= 0) {
 			return saldo;
 		}else{
-			System.out.println("O seu saldo com tosas é de: ");
 			saldoTotalCota = saldo * cotas;
 			return saldoTotalCota;
 		}
