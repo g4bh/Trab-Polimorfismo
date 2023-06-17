@@ -1,12 +1,13 @@
 
 public class Banco {
+	private InstrumentoFinanceiro[] instrumentos;
 	private int numInstrumentos;
+	 
+	public void adicionar(InstrumentoFinanceiro instrumento) {};
 	
-	public void adicionar(InstrumentoFinanceiro instrumento ) {};
-	
-	public void calculaSaldos() {}; //float
+	public void calcularSaldos() {}; //float
 		
 	public static void main(String[] args) {
-		System.out.println("Insera: ");
+		
 	}
 }
