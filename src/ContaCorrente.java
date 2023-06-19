@@ -1,3 +1,4 @@
+package Banco;
 
 public class ContaCorrente extends InstrumentoFinanceiro {
 	private float limite;
