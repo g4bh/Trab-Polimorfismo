@@ -1,3 +1,4 @@
+package Banco;
 
 public class Acao extends InstrumentoFinanceiro{
 	private int cotas;
