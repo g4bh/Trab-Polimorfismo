@@ -1,3 +1,4 @@
+package Banco;
 
 public class FundoDeAplicacao extends InstrumentoFinanceiro{
 	private float rentabilidade;
