@@ -1,3 +1,5 @@
+package Banco;
+
 public class InstrumentoFinanceiro {
     private float saldo;
     	
@@ -13,7 +15,5 @@ public class InstrumentoFinanceiro {
     public float calcularSaldoTotal() {
     	return getSaldo();
     }
-
-	
 
 }
